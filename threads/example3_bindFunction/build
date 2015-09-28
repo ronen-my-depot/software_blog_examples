@@ -1,0 +1,1 @@
+g++ boostThread.cpp -lboost_thread
