@@ -1,0 +1,4 @@
+g++ regular_loop.cpp -o regularLoop
+g++ -fopenmp openmp1.cpp -o openmp1
+g++ -fopenmp openmp2.cpp -o openmp2
+g++ -fopenmp openmp3.cpp -o openmp3
