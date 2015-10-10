@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/remoteConsole.dir/remoteConsole.cpp.o  -o remoteConsole -rdynamic -lrt -lboost_thread-mt -lboost_system-mt -lboost_filesystem-mt -lboost_date_time-mt -lboost_timer-mt -lboost_chrono-mt 
