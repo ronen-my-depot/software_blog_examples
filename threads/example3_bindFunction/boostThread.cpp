@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
 	std::string data[2];
 	
   boost::thread worker1(boost::bind(&Work1::handle, work1,  boost::ref(data[0])));
-  boost::thread worker2(boost::bind(&Work1::handle, work1,  boost::ref(data[1])));  
+  boost::thread worker2(boost::bind(&Work1::handle, work2,  boost::ref(data[1])));  
 
   std::cout << "main: waiting for thread" << std::endl;
   worker1.join();
