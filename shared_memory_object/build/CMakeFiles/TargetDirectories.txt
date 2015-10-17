@@ -1,2 +1,0 @@
-/home/ronen/work/software_blog_examples/shm/build/CMakeFiles/client.dir
-/home/ronen/work/software_blog_examples/shm/build/CMakeFiles/server.dir

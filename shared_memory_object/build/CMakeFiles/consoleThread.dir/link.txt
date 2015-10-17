@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/consoleThread.dir/ConsoleThread.cpp.o  -o consoleThread -rdynamic -lrt -lboost_thread-mt -lboost_system-mt -lboost_filesystem-mt -lboost_date_time-mt -lboost_timer-mt -lboost_chrono-mt 
