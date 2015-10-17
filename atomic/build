@@ -1,0 +1,1 @@
+g++ atomic_ex1.cpp -lpthread -std=c++11 -o atomic_ex1
