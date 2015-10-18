@@ -30,14 +30,10 @@ int main(int argc, char* argv[])
 	}
 	for(auto worker : workers){
 		worker->join();
+		delete worker;
 	}
 	// print acc:
 	std::cout << "acc = " << work1->acc << std::endl;
 	std::cout << "accAtomic = " << work1->accAtomic << std::endl;
-
-	
-	for(std::thread* worker : workers){
-		delete worker;
-	}
 	return 0;
 }
